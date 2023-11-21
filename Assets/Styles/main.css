@@ -1,0 +1,53 @@
+/* General body styles */
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f4f4f4;
+    color: #333;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+  }
+  
+  /* Style for the main container */
+  main {
+    width: 80%;
+    margin: 20px auto;
+    padding: 20px;
+    background: white;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  /* Unordered list styles */
+  ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  /* List item styles */
+  ul li {
+    background: #fff;
+    border: 1px solid #ddd;
+    margin-bottom: 10px;
+    padding: 10px;
+    border-radius: 5px;
+  }
+  
+  /* Link styles */
+  a {
+    text-decoration: none;
+    color: #0275d8;
+    font-weight: bold;
+  }
+  
+  a:hover {
+    color: #0256d3;
+  }
+  
+  /* Responsive design */
+  @media screen and (max-width: 768px) {
+    main {
+      width: 95%;
+      margin: 10px auto;
+    }
+  }
+  
